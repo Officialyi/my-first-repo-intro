@@ -1,1 +1,141 @@
 /* Copy your CSS code from CodePen below this point */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+  }
+  
+  nav{
+    background-color: #16151D;
+    color: white;
+    padding: 20px 10px;
+    margin-bottom: 50px;
+    width: 100%;
+    position: fixed;
+  }
+  
+  nav ul{
+    position: absolute;
+    top:50%;
+    right: 3%;
+    transform:translate(0,-50%);
+    list-style:none;
+  }
+  
+  nav li{
+    float: left;
+    margin: 0 15px;
+  }
+  
+  header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://hackerusa-ce.github.io/intro-v2-final-project/assets/images/heroBackground.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  header h1{
+    padding-top: 40px;
+  }
+  
+  /* .menu-section{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  } */
+  
+  h2{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  h3{
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .menuFileContainer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  menu-section h4{
+    font-weight: 700;
+    font-size: 16px;
+  }
+  li, p{
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .menu-section div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .content-box{
+    display: flex;
+    align-items: center;
+  }
+  
+  .content-box .content{
+    width: 800px;
+    margin-left: 20px;
+  
+  }
+  
+  section{
+  /*   margin-top: 30px;
+    margin-bottom: 30px; */
+    margin: 30px 5px;
+  }
+  
+  .favorites img{
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+  }
+  
+  .favorites-carousel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  
+  .favorites-carousel img:hover{
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+  }
+  
+  footer{
+    margin-top: 25px;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+  }
+  
+  footer div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  footer img{
+    margin: 10px 0;
+    width: 30px;
+  }
+  
+  .menu-section h4{
+    color: green;
+  }
+  
